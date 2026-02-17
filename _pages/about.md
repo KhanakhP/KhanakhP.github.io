@@ -94,40 +94,6 @@ My toolkit includes PyTorch, TensorFlow, OpenCV, and an unhealthy amount of Stac
 
 **☕ Coffee Consumed:** Proportional to the number of epochs trained
 
----
-
-## NAVIGATION HINTS (Subtle CTAs)
-
-"Want the detailed story? Check out my **[Experience](/experience)** page.
-
-Curious about what I've built? Dive into my **[Projects](/projects)**.
-
-Need the formal version? Grab my **[CV](/files/Resume_knk.pdf)**."
-
----
-
-## WITTY MICRO-COPY OPTIONS
-
-**Loading States:**
-"Training... (this usually takes longer)"
-
-**Contact Section:**
-"Let's build something intelligent together. Or at least something that compiles."
-
----
-
-## SOCIAL PROOF SNIPPETS
-
-**Current Role Highlight:**
-"Currently solving computer vision problems for quadruped robots at IIT Mandi's Robotics Lab"
-
-**Education Badge:**
-"B.Tech Information Technology | CGPA: 7.93 | Parul Institute"
-
-**Quick Win:**
-"Achieved 30+ FPS real-time terrain detection on edge hardware"
-
----
 
 <!-- ---
 
