@@ -14,4 +14,82 @@
 <link rel="icon" href="/images/favicon.ico"/>
 <meta name="theme-color" content="#ffffff"/>
 
+<!-- Navigation click control -->
+<script>
+  (function() {
+    function updateNavLinks() {
+      const currentPath = window.location.pathname;
+      const links = document.querySelectorAll('.masthead__menu-item a');
+      
+      // Debug: log current path
+      console.log('Current page path:', currentPath);
+      
+      links.forEach(function(link) {
+        // Skip theme toggle
+        if (link.closest('#theme-toggle')) return;
+        
+        const href = link.getAttribute('href');
+        if (!href) return;
+        
+        // Get the pathname from the href
+        let linkPath;
+        try {
+          // Handle both relative and absolute URLs
+          if (href.startsWith('http')) {
+            linkPath = new URL(href).pathname;
+          } else if (href.startsWith('/')) {
+            linkPath = href;
+          } else {
+            // Relative path, skip
+            return;
+          }
+        } catch(e) {
+          console.error('Error parsing link:', href, e);
+          return;
+        }
+        
+        // Normalize: remove trailing slash and index.html
+        const normalizePath = (path) => {
+          return path.replace(/\/index\.html$/, '').replace(/\/$/, '') || '/';
+        };
+        
+        const normalizedCurrent = normalizePath(currentPath);
+        const normalizedLink = normalizePath(linkPath);
+        
+        // Debug log
+        console.log('Comparing:', normalizedCurrent, '===', normalizedLink);
+        
+        // Check exact match
+        const isExactMatch = normalizedCurrent === normalizedLink;
+        
+        if (isExactMatch) {
+          // Disable on exact match
+          link.style.setProperty('pointer-events', 'none', 'important');
+          link.style.setProperty('cursor', 'default', 'important');
+          link.style.setProperty('opacity', '0.7', 'important');
+          console.log('✗ DISABLED:', href);
+        } else {
+          // Enable on non-match
+          link.style.setProperty('pointer-events', 'auto', 'important');
+          link.style.setProperty('cursor', 'pointer', 'important');
+          link.style.setProperty('opacity', '1', 'important');
+          console.log('✓ ENABLED:', href);
+        }
+      });
+    }
+    
+    // Run after page loads
+    if (document.readyState === 'loading') {
+      document.addEventListener('DOMContentLoaded', updateNavLinks);
+    } else {
+      updateNavLinks();
+    }
+    
+    // Also run after a short delay to catch any late-loading elements
+    setTimeout(updateNavLinks, 100);
+  })();
+</script>
+
+
+
 <!-- end custom head snippets -->

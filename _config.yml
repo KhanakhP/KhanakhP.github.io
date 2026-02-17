@@ -91,6 +91,17 @@ publication_category:
   conferences:
     title: 'Conference Papers'
 
+# Project categories
+project_category:
+  llm:
+    title: "🤖 Large Language Models & NLP"
+  computer-vision:
+    title: "👁️ Computer Vision & Robotics"
+  data-science:
+    title: "📊 Data Science & Analytics"
+  ml:
+    title: "🔧 Machine Learning Fundamentals"
+
 # Site Settings
 teaser                   :  # filename of teaser fallback teaser image placed in /images/ for social media previews
 breadcrumbs              : false # true, false (default)
@@ -233,6 +244,12 @@ collections:
   talks:
     output: true
     permalink: /:collection/:path/
+  projects:
+    output: true
+    permalink: /:collection/:path/
+  experience:
+    output: true
+    permalink: /:collection/:path/
 
 
 # These settings control how pages and collections are included in the site
@@ -259,6 +276,15 @@ defaults:
   - scope:
       path: ""
       type: teaching
+    values:
+      layout: single
+      author_profile: true
+      share: true
+      comments: true
+  # _experience
+  - scope:
+      path: ""
+      type: experience
     values:
       layout: single
       author_profile: true

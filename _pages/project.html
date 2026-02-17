@@ -1,0 +1,242 @@
+---
+layout: archive
+title: "Projects"
+permalink: /projects/
+author_profile: true
+---
+
+<style>
+  /* Page title color - auto-switches with dark mode */
+  .page__title {
+    color: #52adc8 !important;
+  }
+  
+  .project-category {
+    margin-top: 50px;
+    margin-bottom: 30px;
+  }
+  
+  .category-title {
+    border-bottom: 3px solid #667eea;
+    padding-bottom: 10px;
+    color: #2c3e50;
+    font-size: 28px;
+    margin-bottom: 25px;
+  }
+  
+  .project-item {
+    margin-bottom: 20px;
+    padding-left: 20px;
+  }
+  
+  .project-title {
+    font-size: 18px;
+    font-weight: 600;
+    margin-bottom: 5px;
+  }
+  
+  .project-title a {
+    color: var(--link-color, #52adc8);
+    text-decoration: none;
+  }
+  
+  .project-title a:hover {
+    text-decoration: underline;
+  }
+  
+  .project-description {
+    color: #000000;
+    font-size: 15px;
+    line-height: 1.5;
+  }
+  
+  /* Dark mode support */
+  @media (prefers-color-scheme: dark) {
+    .page__title {
+      color: #64b5f6 !important;
+    }
+    
+    .category-title {
+      color: #000000;
+      border-bottom-color: #7c8cfa;
+    }
+    
+    .project-title a {
+      color: #64b5f6;
+    }
+    
+    .project-description {
+      color: #2b2a2a;
+    }
+  }
+  
+  /* Manual dark mode toggle support (if your theme uses this) */
+  [data-theme="dark"] .page__title,
+  .dark-mode .page__title {
+    color: #64b5f6 !important;
+  }
+  
+  [data-theme="dark"] .category-title,
+  .dark-mode .category-title {
+    color: #e0e0e0;
+    border-bottom-color: #7c8cfa;
+  }
+  
+  [data-theme="dark"] .project-title a,
+  .dark-mode .project-title a {
+    color: #64b5f6;
+  }
+  
+  [data-theme="dark"] .project-description,
+  .dark-mode .project-description {
+    color: #e2e2e2;
+  }
+</style>
+
+<!-- <style>
+  .project-category {
+    margin-top: 50px;
+    margin-bottom: 30px;
+  }
+  
+  .category-title {
+    border-bottom: 3px solid #667eea;
+    padding-bottom: 10px;
+    color: #000000;
+    font-size: 28px;
+    margin-bottom: 25px;
+  }
+  
+  .project-item {
+    margin-bottom: 20px;
+    padding-left: 20px;
+  }
+  
+  .project-title {
+    font-size: 18px;
+    font-weight: 600;
+    margin-bottom: 5px;
+  }
+  
+  .project-title a {
+    color: #52adc8 ;
+    text-decoration: none;
+  }
+  
+  .project-title a:hover {
+    text-decoration: underline;
+  }
+  
+  .project-description {
+    color: #e4e4e4;
+    font-size: 15px;
+    line-height: 1.5;
+  }
+</style> -->
+
+<!-- Large Language Models & NLP -->
+<div class="project-category">
+  <h2 class="category-title">🤖 Large Language Models & NLP</h2>
+  
+  <div class="project-item">
+    <div class="project-title">
+      <a href="https://github.com/KhanakhP/GPT_from_scratch" target="_blank">GPT Implementation from Scratch</a>
+    </div>
+    <p class="project-description">
+      Built a complete GPT-style transformer in PyTorch with multi-head attention, positional encodings, and verified correctness by loading pretrained weights.
+    </p>
+  </div>
+  
+  <div class="project-item">
+    <div class="project-title">
+      <a href="https://github.com/KhanakhP/sms-spam-detection-nlp" target="_blank">SMS Classification via GPT-2 Fine-Tuning</a>
+    </div>
+    <p class="project-description">
+      Fine-tuned GPT-2 Medium for spam classification by replacing the language modeling head and selectively updating top transformer layers.
+    </p>
+  </div>
+  
+  <div class="project-item">
+    <div class="project-title">
+      <a href="https://github.com/KhanakhP/Language_Detection" target="_blank">Language Detection</a>
+    </div>
+    <p class="project-description">
+      Multi-class classification system for identifying languages from text samples using NLP techniques.
+    </p>
+  </div>
+</div>
+
+<!-- Computer Vision & Robotics -->
+<div class="project-category">
+  <h2 class="category-title">👁️ Computer Vision & Robotics</h2>
+  
+  <div class="project-item">
+    <div class="project-title">
+      <a href="https://github.com/KhanakhP" target="_blank">Comparative Object Tracking with Failure Detection</a>
+    </div>
+    <p class="project-description">
+      Implemented CamShift and MeanShift trackers with HSV back-projection, benchmarked performance using FPS and drift metrics, designed automatic re-initialization on tracking loss.
+    </p>
+  </div>
+  
+  <div class="project-item">
+    <div class="project-title">
+      <a href="https://github.com/KhanakhP" target="_blank">Automated Real-Time Terrain Detection for Quadruped Robotics</a>
+    </div>
+    <p class="project-description">
+      Developed YOLO-based terrain classification achieving 30+ FPS on edge hardware, automated model selection under real-time constraints, exported to ONNX for deployment.
+    </p>
+  </div>
+</div>
+
+<!-- Data Science & Analytics -->
+<div class="project-category">
+  <h2 class="category-title">📊 Data Science & Analytics</h2>
+  
+  <div class="project-item">
+    <div class="project-title">
+      <a href="https://github.com/KhanakhP" target="_blank">Customer Sentiment Analysis</a>
+    </div>
+    <p class="project-description">
+      Scraped customer reviews using Python, applied VADER sentiment analysis to classify reviews as positive, negative, or neutral.
+    </p>
+  </div>
+  
+  <div class="project-item">
+    <div class="project-title">
+      <a href="https://github.com/KhanakhP" target="_blank">Predictive Modeling</a>
+    </div>
+    <p class="project-description">
+      Built Random Forest classifier to predict flight booking likelihood based on browsing and purchase history.
+    </p>
+  </div>
+  
+  <div class="project-item">
+    <div class="project-title">
+      <a href="https://github.com/KhanakhP/Reddit-User-Persona-Generator" target="_blank">Reddit User Persona Generator</a>
+    </div>
+    <p class="project-description">
+      Analyzes Reddit user post history to generate comprehensive user personas using text processing and sentiment analysis.
+    </p>
+  </div>
+</div>
+
+<!-- Machine Learning Fundamentals -->
+<div class="project-category">
+  <h2 class="category-title">🔧 Machine Learning Fundamentals</h2>
+  
+  <div class="project-item">
+    <div class="project-title">
+      <a href="https://github.com/KhanakhP/Celsius_to_Fehrenhiet_Tensorflow" target="_blank">Celsius to Fahrenheit Neural Network</a>
+    </div>
+    <p class="project-description">
+      Introductory deep learning project demonstrating neural network basics, loss functions, and gradient descent for temperature conversion.
+    </p>
+  </div>
+</div>
+
+<nav style="margin-bottom: 30px; padding: 10px 0; border-bottom: 1px solid #e0e0e0;">
+  <a href="/" style="color: #52adc8; text-decoration: none;">Home</a> 
+  <span style="color: #999;"> / </span>
+  <span style="color: #666;">{{ page.title }}</span>
+</nav>

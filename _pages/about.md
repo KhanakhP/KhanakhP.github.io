@@ -1,11 +1,135 @@
 ---
 permalink: /
-title: "Academic Pages is a ready-to-fork GitHub Pages template for academic personal websites"
+title: "👋 Hello, I'm Khanakh."
 author_profile: true
 redirect_from: 
   - /about/
   - /about.html
 ---
+
+"I teach machines to see, understand, and occasionally surprise me."
+
+---
+
+### About Me:
+
+"I'm Khanakh Prajapati, and I have a confession: I built GPT from scratch just to prove I understood how it actually works. Turns out, multi-head attention is exactly as mind-bending as everyone says.
+
+These days, I'm a Robotics & AI Intern at IIT Mandi, where I work on everything from transformer-based language systems to terrain detection for quadruped robots. My approach is simple: understand the fundamentals deeply, build it yourself first, then leverage the pre-trained models. It's the engineering equivalent of learning to cook before using a microwave.
+
+I'm drawn to problems that sit at the intersection of theory and deployment—building a CNN is one thing, but getting it to run at 30 FPS on edge hardware while a robot is actively trying not to fall over? That's the fun part.
+
+My toolkit includes PyTorch, TensorFlow, OpenCV, and an unhealthy amount of Stack Overflow tabs. I believe in writing clean code, documenting thoroughly (future me will thank present me), and never trusting a model that hasn't been tested on real data."
+
+---
+
+## What I Bring to the Table (Besides Coffee)
+
+#### **Deep Learning & Neural Architectures**
+*"Making neurons fire in all the right places"*
+
+- Transformers (GPT, BERT) - Built from scratch, fine-tuned for production
+- CNNs & Computer Vision - Object detection, tracking, and terrain classification
+- RNNs & Sequential Models - Because time-series data doesn't wait for anyone
+- Transfer Learning - Standing on the shoulders of very expensive GPU hours
+
+**Key Projects:** GPT implementation from scratch, CNN-based terrain detection for robotics
+
+---
+
+#### **Computer Vision**
+*"Teaching machines to see better than I do before my morning coffee"*
+
+- Object Detection & Tracking (YOLO, CamShift, MeanShift)
+- Real-Time Video Processing
+- ArUco Marker Detection & Optical Flow
+- Image Preprocessing & Augmentation
+- Edge Deployment (ONNX conversion, latency optimization)
+
+**Real-World Impact:** Built a terrain detection system that runs at 26+ FPS on quadruped robots
+
+---
+
+#### **Machine Learning Fundamentals**
+*"The classics never go out of style"*
+
+- Regression Models (Linear, Logistic)
+- Tree-Based Methods (Decision Trees, Random Forest)
+- Feature Engineering & Selection
+- Model Evaluation & Cross-Validation
+- Hyperparameter Tuning (GridSearch, Bayesian Optimization)
+
+**Proven Results:** Predictive modeling for flight booking behavior at British Airways
+
+---
+
+#### **Frameworks & Libraries**
+*"The tools that make the magic happen"*
+
+**Deep Learning:** PyTorch (preferred), TensorFlow, Keras, Hugging Face Transformers
+**Computer Vision:** OpenCV
+**Data Science:** Pandas, NumPy, Scikit-learn, Matplotlib
+**Version Control:** Git, GitHub (because `git push --force` is not a solution)
+
+---
+
+#### **Development Practices**
+*"Writing code that doesn't make future me cry"*
+
+- Clean, documented code (comments that explain *why*, not *what*)
+- Reproducible experiments (random seeds are your friend)
+- Performance profiling & optimization
+- Model versioning & experiment tracking
+- Real-time system constraints & latency budgets
+
+---
+
+### "By the Numbers"
+
+**🤖 Models Built from Scratch:** 3+ (including full GPT implementation)
+
+**⚡ Real-Time Systems Deployed:** 2 (terrain detection, object tracking)
+
+**📊 Datasets Wrangled:** Too many to count (data cleaning is 80% of the job)
+
+**☕ Coffee Consumed:** Proportional to the number of epochs trained
+
+---
+
+## NAVIGATION HINTS (Subtle CTAs)
+
+"Want the detailed story? Check out my **[Experience](/experience)** page.
+
+Curious about what I've built? Dive into my **[Projects](/projects)**.
+
+Need the formal version? Grab my **[CV](/files/Resume_knk.pdf)**."
+
+---
+
+## WITTY MICRO-COPY OPTIONS
+
+**Loading States:**
+"Training... (this usually takes longer)"
+
+**Contact Section:**
+"Let's build something intelligent together. Or at least something that compiles."
+
+---
+
+## SOCIAL PROOF SNIPPETS
+
+**Current Role Highlight:**
+"Currently solving computer vision problems for quadruped robots at IIT Mandi's Robotics Lab"
+
+**Education Badge:**
+"B.Tech Information Technology | CGPA: 7.93 | Parul Institute"
+
+**Quick Win:**
+"Achieved 30+ FPS real-time terrain detection on edge hardware"
+
+---
+
+<!-- ---
 
 This is the front page of a website that is powered by the [Academic Pages template](https://github.com/academicpages/academicpages.github.io) and hosted on GitHub pages. [GitHub pages](https://pages.github.com) is a free service in which websites are built and hosted from code and data stored in a GitHub repository, automatically updating when a new commit is made to the repository. This template was forked from the [Minimal Mistakes Jekyll Theme](https://mmistakes.github.io/minimal-mistakes/) created by Michael Rose, and then extended to support the kinds of content that academics have: publications, talks, teaching, a portfolio, blog posts, and a dynamically-generated CV. Incidentally, these same features make it a great template for anyone that needs to show off a professional template!
 
@@ -53,4 +177,4 @@ Example: editing a Markdown file for a talk
 
 For more info
 ------
-More info about configuring Academic Pages can be found in [the guide](https://academicpages.github.io/markdown/), the [growing wiki](https://github.com/academicpages/academicpages.github.io/wiki), and you can always [ask a question on GitHub](https://github.com/academicpages/academicpages.github.io/discussions). The [guides for the Minimal Mistakes theme](https://mmistakes.github.io/minimal-mistakes/docs/configuration/) (which this theme was forked from) might also be helpful.
+More info about configuring Academic Pages can be found in [the guide](https://academicpages.github.io/markdown/), the [growing wiki](https://github.com/academicpages/academicpages.github.io/wiki), and you can always [ask a question on GitHub](https://github.com/academicpages/academicpages.github.io/discussions). The [guides for the Minimal Mistakes theme](https://mmistakes.github.io/minimal-mistakes/docs/configuration/) (which this theme was forked from) might also be helpful. -->

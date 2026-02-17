@@ -83,9 +83,15 @@ layout: default
         {% include page__taxonomy.html %}
       </footer>
 
-      {% if page.share %}{% include social-share.html %}{% endif %}
-
+      {% if page.share %}
+        {% if page.collection == 'projects' %}
+          {% include social-share.html %}
+        {% endif %}
+      {% endif %}
+      
+      {% comment %}
       {% include post_pagination.html %}
+      {% endcomment %}
     </div>
 
     {% if site.comments.provider and page.comments %}
