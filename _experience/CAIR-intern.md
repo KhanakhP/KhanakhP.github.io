@@ -1,10 +1,11 @@
 ---
 title: "Robotics and Artificial Intelligence"
-collection: teaching
+collection: experience
 type: "Intern"
 permalink: /experience/iit-mandi
 venue: "IIT Mandi, Drone Lab"
-date: 2025-11-10
+start_date: 2025-11-10
+end_date: 
 location: "Mandi, India"
 ---
 

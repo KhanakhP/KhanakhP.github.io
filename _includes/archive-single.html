@@ -42,8 +42,20 @@
           <p> {{ post.type }}, <i>{{ post.venue }}</i>, {{ post.date | default: "1900-01-01" | date: "%Y" }} </p>
         {% elsif post.collection == 'publications' %}
           <p>Published in <i>{{ post.venue }}</i>, {{ post.date | default: "1900-01-01" | date: "%Y" }} </p>
+        {% elsif post.collection == 'experience' %}
+          <p class="page__date">
+            <strong><i class="fa fa-fw fa-hourglass-half" aria-hidden="true"></i> Duration:</strong> 
+            {% if post.start_date %}
+              {{ post.start_date | date: "%B %Y" }}
+            {% endif %}
+            {% if post.end_date %}
+              - {{ post.end_date | date: "%B %Y" }}
+            {% else %}
+              - Present
+            {% endif %}
+          </p>
         {% elsif post.date %}
-         <p class="page__date"><strong><i class="fa fa-fw fa-calendar" aria-hidden="true"></i> {{ site.data.ui-text[site.locale].date_label | default: "Published:" }}</strong> <time datetime="{{ post.date | default: "1900-01-01" | date_to_xmlschema }}">{{ post.date | default: "1900-01-01" | date: "%B %d, %Y" }}</time></p>
+        <p class="page__date"><strong><i class="fa fa-fw fa-calendar" aria-hidden="true"></i> {{ site.data.ui-text[site.locale].date_label | default: "Published:" }}</strong> <time datetime='{{ post.date | default: "1900-01-01" | date_to_xmlschema }}'>{{ post.date | default: "1900-01-01" | date: "%B %d, %Y" }}</time></p>
         {% endif %}
 
     {% if post.excerpt and site.read_more != 'enabled' %}

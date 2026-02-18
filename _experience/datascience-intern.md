@@ -1,10 +1,11 @@
 ---
 title: "Data Science"
-collection: teaching
+collection: experience
 type: "Intern"
 permalink: /experience/british-airways
 venue: "British Airways"
-date: 2024-08-20
+start_date: 2024-08-20
+end_date: 2024-09-21
 location: "remote"
 ---
 

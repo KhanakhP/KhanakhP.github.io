@@ -7,7 +7,7 @@ author_profile: true
 
 {% include base_path %}
 
-{% for post in site.experience reversed %}
+{% for post in site.experience %}
   {% include archive-single.html %}
 {% endfor %}
 
@@ -16,8 +16,12 @@ author_profile: true
   <span style="color: #999;"> / </span>
   <span style="color: #666;">{{ page.title }}</span>
 </nav>
-<div style="margin-top: 60px; border-top: 1px solid #e0e0e0;">
+
+
+<div style="margin-top: 20px; border-top: 1px solid #e0e0e0;">
   <p style="font-size: 16px; line-height: 1.6; color: #acabab; max-width: 900px;">
     Through these experiences, I've developed a comprehensive understanding of the full machine learning lifecycle—from initial research and model development to optimization and deployment in production environments. I bring both theoretical depth and practical implementation experience to challenging AI problems.
   </p>
 </div>
+
+

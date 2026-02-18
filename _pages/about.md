@@ -12,6 +12,8 @@ redirect_from:
 ---
 
 ### About Me:
+<img src="/images/about_me.png" alt="AI visualization" 
+style=" float: right; height: auto; max-width: 200px; object-fit: cover; margin: 1px 0;">
 
 "I'm Khanakh Prajapati, and I have a confession: I built GPT from scratch just to prove I understood how it actually works. Turns out, multi-head attention is exactly as mind-bending as everyone says.
 
@@ -21,10 +23,20 @@ I'm drawn to problems that sit at the intersection of theory and deployment—bu
 
 My toolkit includes PyTorch, TensorFlow, OpenCV, and an unhealthy amount of Stack Overflow tabs. I believe in writing clean code, documenting thoroughly (future me will thank present me), and never trusting a model that hasn't been tested on real data."
 
+
+<div style="clear: both;"></div>
+
+<div style="display: flex; align-items: center; gap: 10px;">
+  <h2 style="margin: 0; white-space: nowrap; border: none">
+    <div style="height: 30px;"></div>
+    What I Bring to the Table (Besides Coffee)
+  </h2>
+
+  <!-- <img src="/images/ai_on_hand.png"
+       alt="AI visualization"
+       style="max-width: 150px; height: auto;"> -->
+</div>
 ---
-
-## What I Bring to the Table (Besides Coffee)
-
 #### **Deep Learning & Neural Architectures**
 *"Making neurons fire in all the right places"*
 
@@ -93,7 +105,6 @@ My toolkit includes PyTorch, TensorFlow, OpenCV, and an unhealthy amount of Stac
 **📊 Datasets Wrangled:** Too many to count (data cleaning is 80% of the job)
 
 **☕ Coffee Consumed:** Proportional to the number of epochs trained
-
 
 <!-- ---
 
